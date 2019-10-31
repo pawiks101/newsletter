@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Animal Rescue">
+  	<meta name="keywords" content="animal rescue, donation, we care">
+  	<meta name="author" content="Paul Erik Agustin">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div id="logo">
+				<img src="wecare.jpg">
+			</div>
+
+			<div class="icon-bar">
+			  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+			  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+			  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> 
+			</div>
+
+		</header>
+			<div class="banner">
+				<img src="banner.jpg" border="4" class="banner-logo">
+			</div>
+			
+			<div class="one-col">
+				<h1 class="heading">Our Mission</h1>
+				<p>"It is our great mission to encourage the protection and compassionate care of all animals and to prevent cruelty, suffering and abandonement.
+
+				We adhere to no kill principles, we aspire to be the best-in-class animal shelter in town. Working in partnership with the community to find creative solutions and improve outcomes for all animal that needs our help and care."</p>
+				</h1>
+			</div>
+
+			<div class="button-holder">
+				<a class="btn" href="#" target="_blank">Read More</a>	
+			</div>
+
+			<div class="line">
+				
+			</div>	
+
+			<div class="video">
+  				<div class="centered">
+	    			<video width="650" controls volume="0.9" class="video-example" poster="screenshot.jpg" class="dog-video">
+	    			<source src="petvideo.mp4" type="video/mp4">
+	    			</video>
+  				</div>
+			</div>
+
+				<div class="slideshow-container">
+
+			    	<q class="mySlides">
+			        "I have been a donor in this organization, as I believe in their mission. Keep up the good work guys!"
+			    	</q>
+			    	<div class="centered-items">
+			       		<img class="logo" src="avatar1.png" alt="logo">
+			        <div class="user-details">
+				    	<h4 class="username"> - Bryan Walker - </h4>
+
+					</div>
+		   		</div>
+
+		   			<!-- <q class="mySlides">"Keep up the good work guys!"</q>
+			       	<div class="centered-items">
+			       		<img class="logo" src="avatar1.png" alt="logo">
+			        <div class="user-details">
+				    	<h4 class="username"> - Paul Walker - </h4>
+
+					</div>
+		   		</div> -->
+
+		   			<a href="#" class="carousel-controls">
+				    <div class="carousel-control-left" onclick="plusSlides(-1)"><i class="fa fa-chevron-left"></i></div>
+          			<div class="carousel-control-right" onclick="plusSlides(1)"><i class="fa fa-chevron-right"></i></div>
+          			</a>
+
+			</div>
+
+			<div class="split-right">
+  				<form class="form-right" autocomplete="off">
+					First name:<br>
+					<input type="text" name="firstname" placeholder="first name" required>
+					<br><br>
+					Last name:<br>
+					<input type="text" name="lastname" placeholder="last name" required>
+					<br><br>
+					Email Address:<br>
+					<input type="email" name="email" placeholder="email" required>
+					
+				<div class="donation">	
+				<p class="donate">Please select Donation Amount:</p>
+  					<input type="radio" name="donation" class="donation-amount">$10<br>
+  					<input type="radio" name="donation" class="donation-amount">$20<br>
+  					<input type="radio" name="donation" class="donation-amount">$30<br>
+  					<input type="text" name="donation" placeholder="enter amount" class="donation-amount"> Others<br>
+  				</div>	 
+				
+				<div class="nationality">
+  				<p class="continents">Nationality:</p>
+				<select name="Nationality" size="4" multiple>
+					<option value="">-- select one --</option>
+					<option value="afghan">Asia</option>
+					<option value="albanian">Africa</option>
+					<option value="algerian">North America</option>
+					<option value="american">South America</option>
+					<option value="andorran">Europe</option>
+					<option value="andorran">Australia</option>
+				</select>
+				</div>
+				<br>
+				<button class="donate-now" type="button" onclick="alert('Information Submitted - Thank you for your Donation!')">Donate Now</button>
+				</form> 
+			</div>	
+			
+			<div class="line">
+				
+			</div>
+
+			<p class="contact">
+			Paul Erik T. Agustin <br>
+			+16470000000 <br>
+			1 & 7, 1011 Eglinton Ave E, Mississauga, ON L4W 1K4 <br>
+			paulerik@gmail.com
+			
+			<footer>
+				WE CARE ANIMAL RESCUE &copy October 2019
+			</footer>
+	</div>
+
+	<!-- <script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+				showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+				showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+ 				var i;
+  				var slides = document.getElementsByClassName("mySlides");
+  				var dots = document.getElementsByClassName("dot");
+
+  				if (n > slides.length) {slideIndex = 1}    
+  				if (n < 1) {slideIndex = slides.length}
+  				for (i = 0; i < slides.length; i++) {
+    		  	slides[i].style.display = "none";  
+ 				 }
+  				for (i = 0; i < dots.length; i++) {
+      			dots[i].className = dots[i].className.replace("active", "");
+  				}
+  				slides[slideIndex-1].style.display = "block";  
+  				dots[slideIndex-1].className += " active";
+				}
+
+	</script> -->
+</body>	
+</html>
